@@ -1,0 +1,50 @@
+.exit-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exit-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.exit-modal-h2{
+    font-size: 50px;
+}
+
+.exit-modal-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.btn-exit{
+    background-color: #ff0000c5;
+    color: #fff;
+    border: #000 1px solid;
+    border-radius: 24px;
+    height: 40px;
+    min-width: 150px;
+}
+.btn-cancel{
+    border: #000 1px solid;
+    border-radius: 24px;
+    height: 40px;
+    min-width: 150px;
+}

@@ -1,0 +1,98 @@
+.start-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkbox-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.start-modal-title {
+    font-size: 60px;
+}
+
+.start-label-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.checkbox-div-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 450px;
+    height: 70px;
+    overflow: hidden;
+}
+
+#checkbox1,#checkbox2,#checkbox3 {
+    scale: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+.start-label-checkbox img {
+    max-height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.checkbox-p {
+    flex: 1;
+    font-size: 30px;
+}
+
+/* Línea separadora entre checkbox y label */
+#checkbox1+ .start-label-checkbox,#checkbox2+ .start-label-checkbox,#checkbox3 + .start-label-checkbox {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.start-modal-btn{
+    background-color: #31c97d;
+    border-radius: 16px;
+    color: #FFF;
+    font-size:30px;
+    border-width: 1px;
+    width: 250px;
+    
+}
+
+.start-modal-btn:hover{
+    opacity: .9;
+}
+
+.start-modal-btn:disabled{
+    opacity: .5;
+    cursor:default;
+}

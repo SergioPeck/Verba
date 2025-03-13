@@ -1,0 +1,49 @@
+.upload-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-imgs-container{
+    min-height: 60vh;
+    min-width: 60vw;
+    border: #fff 1px solid;
+    opacity: .5;
+    margin: 40px;
+    border-radius: 16px;
+}
+
+.upload-btns-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.upload-btn-local{
+    background-color: #5de8a2;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 24px;
+}
+.upload-btn-local:hover{
+    opacity: .9;
+}
+.upload-btn-local:active{
+    scale: .95;
+}
+
+.upload-btn-drive{
+    background-color: #41a0d6;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 24px;
+}
+.upload-btn-drive:hover{
+    opacity: .9;
+}
+.upload-btn-drive:active{
+    scale: .95;
+}

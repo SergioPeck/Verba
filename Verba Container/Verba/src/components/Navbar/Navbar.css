@@ -1,0 +1,110 @@
+nav{
+    background-color: orange;
+}
+/*ian toleda sebastian toledo*/
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFF;
+}
+button{
+    cursor: pointer;
+}
+.nav-btns a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-btns a:active{
+    scale: .9;
+}
+
+.start-btn{
+    background-color: #5DE8A2;
+    border-radius: 10px;
+    color: #FFF;
+    font-size:15px;
+    border-width: 1px;
+    width: 70px;
+}
+
+.start-btn:hover{
+    opacity: .9;
+}
+
+.circles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    max-height: 100%;
+}
+
+.circle{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(163, 162, 162);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.circle img{
+    max-width: 70%;
+}
+
+.circle.green{
+    background-color: green;
+}
+
+.circle.yellow{
+    background-color: rgb(255, 115, 0);
+}
+
+.next-btn{
+    background-color: #5de8a2;
+    border-radius: 10px;
+    color: #FFF;
+    font-size:15px;
+    border-width: 1px;
+    width: 70px;
+}
+.next-btn:disabled{
+    opacity: .5;
+}
+
+.prev-btn{
+    background-color: #e8795d;
+    border-radius: 10px;
+    color: #FFF;
+    font-size:15px;
+    border-width: 1px;
+    width: 70px;
+}
+.prev-btn:disabled{
+    opacity: .5;
+}
+
+.exit-btn{
+    background-color: #ff0000;
+    border-radius: 10px;
+    color: #FFF;
+    font-size:15px;
+    border-width: 1px;
+    width: 70px;
+}
